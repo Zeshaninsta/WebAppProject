@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>update
+    </title>
+</head>
+<body>
+
+        <div class="container" id="Home">
+            <nav>
+                <h1 class="Logo">IT</h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Schedule</a></li>
+                <li><a href="#">Download</a></li>
+                <li><a href="#">Feedback</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </nav>
+    </div>
+        <div class="forms">
+            <form action="insert.php" method="post">
+                <h1>INSERT</h1>
+                <input type="text" name="first_name" placeholder="First Name">
+                <input type="text" name="last_name" placeholder="Last Name">
+                <input type="text" name="IDNO" placeholder="UGR/123/12">
+                <input type="text" name="AGE" placeholder="AGE">
+                <input type="text" name="dorm" placeholder="Dorm">
+                <input type="text" name="CLASS_YEAR" placeholder="CLASS_YEAR">
+                <button name="submit">INSERT</button>
+                <span name="message"></span>
+            </form>
+        </div>
+    </div>
+
+
+
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins','san serif';
+}
+body {
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+.container
+  {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ nav
+  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    line-height: 40px;
+    background-color: #4CAF50;
+  } 
+  nav ul
+  {
+      list-style: none;
+      width: 100%;
+      text-align: right;
+      padding-right: 60px;
+  }
+  nav ul li
+  {
+      display: inline-block;
+      margin: 10px 20px;
+  }
+  nav ul li a
+  {
+      color: #fff;
+      text-decoration: none;
+  }
+
+  .Logo
+{
+   width: 180px;
+   cursor: pointer;
+   font-family: 'poppins','san serif';
+   color: #fff;
+}
+
+.forms
+{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  
+
+}
+form
+{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    margin-bottom: 20px;
+    border: 4px solid #4CAF50;
+    padding: 20px;
+    font-size: 20px;
+    color: #000;
+
+}
+input
+{
+    padding: 10px;
+    outline: none;
+    border: none;
+    background: transparent;
+    color: #000;
+    text-align: center;
+    border-bottom: 1px solid rgb(173, 173, 173);
+}
+button
+{
+    padding: 10px;
+    width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+button:hover
+{
+    background-color: #4CAF50;
+}
+
+</style>
+</body>
+</html>

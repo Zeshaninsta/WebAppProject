@@ -1,0 +1,736 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;800&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins','san serif';
+    scroll-behavior: smooth;
+    text-decoration: none;
+    /* color: #fff; */
+}
+body
+{
+    background-color: #E9ECEF;
+}
+.container
+{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url(../Assest/BG.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* padding: 10px 8%; */
+}
+nav
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 8%;
+    background: linear-gradient(to right,rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+}
+.Logo
+{
+   width: 180px;
+   cursor: pointer;
+   font-family: 'poppins','san serif';
+   color: #fff;
+}
+nav ul
+{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+}
+nav ul li
+{
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a
+{
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a:hover
+{
+    border-bottom: 2px solid white;
+}
+.btn
+{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: none;
+    outline: 0;
+    border-radius: 5px;
+    background: #f59c16;
+    color: #fff;
+    font-weight: 800;
+    cursor: pointer;
+    transition: background  ease-in 0.3s;
+}
+.content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+    color: #fff;
+}
+.content h1
+{
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.opt
+{
+    display: flex;
+    margin: 15px 0;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px 15px;
+    justify-content: center;
+    align-items: center;
+}
+.opt select
+{
+    width: 400px;
+    padding: 15px 15px;
+    background: transparent;
+    color: #fff;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 18px;
+
+}
+#dep
+{
+    background-color: black;
+    width: 400px;
+    outline: none;
+    color: #f59c16;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+/* ****************************SECOND PAGE STARTS HERE******************************** */
+.secondpage
+{
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #000;
+    /* background-color: rgb(160, 143, 123); */
+    /* margin-bottom: 40px; */
+    /* background-color: #4e45ca; */
+    /* font-size: 18px; */
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+.ccollage
+{
+    margin-top: 40px;
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+}
+.about p
+{
+    color: #000;
+    text-align: left;
+}
+.about
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 10px 30px;
+    margin-bottom: 20px; */
+    text-align: center;
+    color: #000;
+    margin: 0px 40px;
+    margin-bottom: 30px;
+    /* width: 100%; */
+}
+.departments
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+    /* width: 100%; */
+    margin-bottom: 50px;
+    font-size: 15px;
+}
+.departments .IT
+{
+    margin: 20px;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../Assest/1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+.departments #CS
+{
+    margin: 20px;
+    background: linear-gradient(to right,rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../Assest/2.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+.departments #ISY
+{
+    margin: 20px;
+    background: linear-gradient(to right,rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../Assest/3.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+.departments #ISC
+{
+    margin: 20px;
+    background: linear-gradient(to right,rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../Assest/4.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+@media only screen and (max-width: 1200px){
+.departments, .itcontent, .cont, .cscontent{
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+}
+    
+}
+a
+{
+    color: #fff;
+}
+
+/* *****************************THIRD PAGE STARTS HERE*************************** */
+.information-technology
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../Assest/12.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    /* background-color: #8788a0; */
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    color: #000;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+
+}
+.itec
+{
+    /* margin-top: 40px; */
+    text-align: center;
+    width: 100%;
+    color: #000000;
+    /* background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)); */
+    line-height: 100px;
+}
+.itcontent
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    width: 100%;
+    /* background-color: rgb(22, 78, 78); */
+    overflow: hidden;
+    color: #000;
+    background-color: #b1b1b1;
+    padding: 10px;
+}
+.itcontent img
+{
+    width: 400px;
+    float: left;
+    flex-wrap: wrap;
+    margin: 15px 20px;
+    border-radius: 40px;
+    /* background: rgb(90, 90, 90); */
+    padding: 20px;
+}
+.itcontent p
+{
+ margin: 0 20px;
+
+}
+
+.itcontent .cont{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    color: #000;
+}
+.cont
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: rgb(22, 78, 78); */
+    margin: 0 20px;
+    padding: 20px 20px;
+    width: 100%;
+    align-items: center;
+    color: #000;
+}
+.cont h1
+{
+    text-transform: capitalize;
+}
+.cont .btn
+{
+    margin-top: 10px;
+    /* background-color: rgb(2, 42, 87); */
+}
+/* *****************************FORTH PAGE STARTS HERE*************************** */
+.computer-scinece
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: #8788a0; */
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    color: #000;
+    box-shadow: 4px 4px 5px 5px rgba(0,0,0,0.4);
+}
+.computer-scinece .css
+{
+    text-transform: uppercase;
+    color: #d85858;
+}
+.cscontent
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    /* background-color: rgb(22, 28, 78); */
+    overflow: hidden;
+    /* padding:0  40px; */
+    
+}
+.cscontent img
+{
+    width: 600px;
+    float: left;
+    flex-wrap: wrap;
+    margin: 15px 20px;
+    border-radius: 40px;
+    /* background: rgb(90, 90, 90); */
+    padding: 20px;
+}
+.cscontent, .side
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+}
+.side
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.aninfo
+{
+    background-color: #858484;
+    padding: 20px;
+    color: #000000;
+}
+.aninfo
+{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: rgb(22, 28, 78); */
+    width: 100%;
+    align-items: center;
+    padding: 20 30px;
+}
+.aninfo a
+{
+    margin: 15px;
+}
+.css
+{
+    width: 100%;
+    /* background: linear-gradient(to right,rgba(0,0,0,0.6),rgba(0,0,0,0.7)); */
+    line-height: 100px;
+    text-align: center;
+}
+/* *************************************************************** */
+.Information-System
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: #8788a0; */
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: rgb(33, 110, 112); */
+    color: #000;
+    margin-bottom: 5%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    
+}
+.Information-System .isy
+{
+    /* background-color: #fff; */
+    text-transform: uppercase;
+    width: 100%;
+    padding: 20px;
+    color: rgb(33, 110, 112);
+    text-align: center;
+    box-shadow: 0px 0px 5px 10px solid black;
+}
+.isycontent
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    /* background-color: rgb(22, 28, 78); */
+    overflow: hidden;
+    padding:0  40px;
+   
+}
+.isyimage img
+{
+    width: 400px;
+    float: left;
+    flex-wrap: wrap;
+    margin: 15px 20px;
+    border-radius: 40px;
+    /* background: rgb(90, 90, 90); */
+    padding: 20px;
+}
+.isycontent, .sidesys
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    /* display: flex; */
+    /* flex-direction: column; */
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+.sidesys
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.aninfosys
+{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: rgb(22, 28, 78); */
+    width: 100%;
+    align-items: center;
+    padding: 0 30px;
+    margin-top: 20px;
+    border-top: 2px solid black;
+}
+.aninfosys a
+{
+    background-color: #63d858;
+    margin: 15px;
+}
+
+
+
+/* ************************************************************* */
+
+
+
+
+.Information-Scinece
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: #8788a0; */
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #6558d8;
+    color: #fff;
+    background-color: #3f5d94;
+}
+.Information-Scinece .isc
+{
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    color: #2b326e;
+}
+.isccontent
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    /* background-color: rgb(22, 28, 78); */
+    overflow: hidden;
+    /* padding:0  40px; */
+}
+.iscimage img
+{
+    width: 600px;
+    float: left;
+    flex-wrap: wrap;
+    margin: 15px 20px;
+    border-radius: 40px;
+    /* background: rgb(90, 90, 90); */
+    padding: 20px;
+}
+.isccontent .side
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.isccontent .side, .aninfosyc
+{
+    background-color: #2b326e;
+    padding: 20px;
+}
+.aninfosyc
+{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: rgb(22, 28, 78); */
+    width: 100%;
+    align-items: center;
+    padding: 0 30px;
+}
+.aninfosyc a
+{
+    background-color: #5865d8;
+    margin: 15px;
+}
+.css
+{
+    width: 100%;
+    /* background: linear-gradient(to right,rgba(0,0,0,0.6),rgba(0,0,0,0.7)); */
+    line-height: 100px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.foter-home
+{
+    background-color: #000;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    color: #fff;
+
+}
+.foter-content
+{
+    display: flex;
+    justify-content: center;
+}
+.foter-content .about ul
+{
+    list-style: none;
+    width: 100%;
+    text-align: left;
+    padding-left: 60px;
+}
+.foter-content .comp ul
+{
+    list-style: none;
+    width: 100%;
+    text-align: left;
+    padding-left: 60px;
+}
+.about ul
+{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+

@@ -1,0 +1,48 @@
+MAIN HOME PAGE {
+    HEAGIN
+    {
+        HOME
+        CLASS
+        DEP
+        FEEDBACK
+        LOGIN
+    }
+    TITLE 
+    {
+        TOPIC 
+        {
+            SMALL SCRIPT ABOUT THE CONTENT
+        }
+    }
+    SELECT
+    {
+        OPTION
+        {
+        TITLE = DEPARTMENT
+        OPTION SELECT
+        {
+            INFORMATION TECHNOLOGY
+            COMPUTER SCINECE
+            INFORMAITON SYSTEM
+            INFORMATION SCINECE
+        }
+
+        }
+
+    }
+    COMPUTING
+    {
+        INFORMAITON TECHNOLOGY
+        COMPUTER SCINECE
+        INFORMAITON SCINECE
+        INFORMAITON SYSTEM
+    }
+
+
+
+    ******************************************
+    INFORMAITON TECHNOLOGY
+    {
+        
+    }
+}

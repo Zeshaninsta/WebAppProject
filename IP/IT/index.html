@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>INFORMATION TECHNOLOGY</title>
+</head>
+<body>
+    <div class="container" id="Home">
+        <nav>
+            <h1 class="Logo">IT</h1>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="../Schedule/schedule.php">Schedule</a></li>
+            <li><a href="#">Download</a></li>
+            <li><a href="#">Feedback</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+        <button class="btn">Singup</button>
+    </nav>
+    <div class="content">
+        <h1>INFORMATION TECHNOLOGY</h1>
+        <h2>Computing Collage</h2>
+        <q>The Web as I envisaged it, we have not seen it yet. The future is still so much bigger than the past.</q> 
+        <h1 id="time"></h1>
+        </div>
+    </div>
+</div>
+<div class="fcontents">
+    <div class="icons">
+    <div class="schdule" id="schdule">
+        <a href="../Database/schedule.php"><img src="../Assest/icons/schedule.png" alt=""></a>
+       <a href="../Database/schedule.php"><p>SCHDULE</p></a>
+    </div>
+    <div class="BOOKS">
+        <a href="../Database/file_download.php"><img src="../Assest/icons/books.png" alt=""></a>
+       <a href="../Database/file_download.php"><p>BOOKS</p></a>
+    </div>
+    <div class="DORM">
+        <a href="../Database/dorm.html"><img src="../Assest/icons/1594379.png" alt=""></a>
+        <a href="../Database/dorm.html"><p>DORM</p></a>
+    </div>
+    <div class="LOGIN">
+      <a href="../LOGIN/Login.html"><img src="../Assest/icons/log.png" alt=""></a>
+        <a href="../LOGIN/Login.html"><p>LOGIN</p></a>
+    </div>
+</div>
+<div class="feeds">
+    <div class="news">
+        <p>
+            <h1>ONLINE RESORCES</h1>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate neque sequi consequuntur provident amet. Nobis nam unde itaque. Sint iusto perferendis accusamus dolorem magni natus non, suscipit dolores saepe dolorum!
+        </p>
+    </div>
+    <div class="online">
+        <div class="web">
+            <h1>WEBSIE</h1>
+            <div class="web-logos">
+                <div class="Fcc">
+                    <img src="../Assest/icons/online/freecodecamp.png" alt="">
+                    <a href="https://www.freecodecamp.org/">FreeCodeCamp</a>
+                </div>
+                <div class="w3school">
+                    <img src="../Assest/icons/online/w3schols.png" alt="">
+                    <a href="https://www.w3schools.com/">W3Schools</a>
+                </div>
+                <div class="gg">
+                    <img src="../Assest/icons/online/GeeksforGeeks.svg.png" alt="">
+                    <a href="https://www.geeksforgeeks.org/">GeeksForGeeks</a>
+                </div>
+                <div class="ttp">
+                    <img src="../Assest/icons/online/ttp.png" alt="">
+                    <a href="https://www.tutorialspoint.com">Tutorial Point</a>
+                </div>
+            </div>
+        </div>
+        <div class="youtube">
+            <div class="yt">
+                <h1>YOUTUBE CHANNELS</h1>
+                <div class="yt-logos">
+                    <div class="network">
+                        <img src="../Assest/icons/online/networkchuck.jpg">
+                        <a href="https://www.youtube.com/@NetworkChuck">NetworkChuck</a>
+                    </div>
+                    <div class="fcc">
+                        <img src="../Assest/icons/online/freecodecamp.png">
+                        <a href="https://www.youtube.com/@freecodecamp">FreeCodeCamp</a>
+                    </div>
+                    <div class="dojo">
+                        <img src="../Assest/icons/online/csdojo.jpg">
+                        <a href="https://www.youtube.com/@CSDojo">CsDojo</a>
+                    </div>
+                    <div class="netninja">
+                        <img src="../Assest/icons/online/netninja.jpg">
+                        <a href="https://www.youtube.com/@NetNinja">The-NetNinja</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+    </div>
+    <footer>
+        <div class="cont">
+            <div class="text">
+            <h1>INFORMATION TECHNOLOGY <h1>
+                <p>infromation technology</p>
+            </div>
+    </footer>
+    <script>
+        let time = document.getElementById("time");
+        setInterval(() => 
+        {
+            let d = new Date();
+            time.innerHTML = d.toLocaleTimeString();
+        },1000)
+    </script>
+</body>
+</html>
